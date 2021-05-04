@@ -10,14 +10,15 @@ const app = new Vue({
   el: '#app',
   data: {
     message: 'Hello Vue!',
-    myClass: 'red'    
+    myClass: ''    
   },
   methods:{
     changeToGreen : function () {
-      this.myClass= 'green';
+      this.myClass = 'green';
     },
-    chRed : function () {
-      this.myClass= 'red';
-    }
+    changeToRed : function () {
+      this.myClass = 'red';
+    },
+    
   }
 });

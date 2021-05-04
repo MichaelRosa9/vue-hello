@@ -31,3 +31,11 @@ body {
 .green {
   color: green;
 }
+
+.black {
+  color: black;
+}
+
+img {
+  width: 100px;
+}

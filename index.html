@@ -14,16 +14,16 @@
     <h1 :class="myClass">
     {{ message }}
     </h1>
+    
     <button @click="changeToGreen"> Change to green </button>
     <button @click="changeToRed"> Change to red </button>
-    <!-- <input @keyup.enter='changeColor' type="text" placeholder="Change the colour
-    " > -->
-    <input type="text" :value="myClass" placeholder="Find Car" 
-         @keyup.enter="myClass = $event.target.value" />
+    
+    <input type="text" placeholder="Find Car" :value="myClass" @keyup.enter="myClass = $event.target.value" />
     <p>Colore scenlto dall'input : {{ myClass }}</p>
 
+    <img src="img/red.JPG" alt="">
   </div>
-
+  
   <script src="js/script.js"></script>
 </body>
 </html>
